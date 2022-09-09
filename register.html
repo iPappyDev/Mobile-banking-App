@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="interphase.css">
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <section class="backgroundImage">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light position-relative">
+                <div class="container-fluid">
+                    <a href="landing.html">
+                        <img src="abstract-windows-blinds-3311ld-removebg-preview.png" alt="" style="height: 70px; width: 70px;">
+                    </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse firstDiv" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Products</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="collapse navbar-collapse secondDiv" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center gap-2">
+                        <li class="nav-item">
+                            <button class="btn btn-info rounded-pill">REGISTER</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-light rounded-pill" onclick="firstLogin()">LOGIN</button>
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <section class="loginInfo">
+            <div id="boxInfo" style="height: 664px; width: 400px; box-shadow: 1px 1px 1px 1px ; background-color: white;">
+                <marquee behavior="" direction="">Register an account and enjoy our services</marquee>
+                <div style="text-align: center; padding: 38px;">
+                    <h4>Create An Account</h4>
+                    <div style="justify-content: center; padding-top: 1px;">
+                        <div class=" g-4">
+                            <div>
+                                <label for="inputPassword6" class="col-form-label">Firstname</label>
+                              </div>
+                              <div>
+                                <input type="text" placeholder="John" id="firstname" class="form" aria-describedby="passwordHelpInline">
+                              </div>
+                            <div>
+                              <label for="inputPassword6" class="col-form-label">Lastname</label>
+                            </div>
+                            <div>
+                              <input type="text"  placeholder="Doe" id="lastname" class="form" aria-describedby="passwordHelpInline">
+                            </div>
+                            <div>
+                                <label for="inputPassword6" class="col-form-label">Date Of Birth</label>
+                              </div>
+                              <div>
+                                <input type="date"  placeholder="Doe" id="dob" class="form" aria-describedby="passwordHelpInline">
+                              </div>
+                            <div>
+                                <label for="inputPassword6" class="col-form-label">Email</label>
+                              </div>
+                              <div>
+                                <input type="email" placeholder="example@user.com" id="userEmail" class="form" aria-describedby="passwordHelpInline">
+                              </div>
+                              <p id="incorrectEmail"></p>
+                              <div class="g-3">
+                                <div>
+                                  <label for="inputPassword6" class="col-form-label">Password</label>
+                                </div>
+                                <div>
+                                  <input type="password" placeholder="password" id="userPassword" class="form" aria-describedby="passwordHelpInline">
+                                </div>
+                                <p id="incorrectPassword"></p>
+                                <div>
+                                  <span id="passwordHelpInline" class="form-text">
+                                    Must be 8-20 characters long.
+                                  </span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <button style="margin-top: 30px; width: 200px; background-color: rgb(121, 191, 196);" class="btn shadow-lg" onclick="registerCustomer()">SIGNUP</button>
+                    <div style="display: flex; justify-content: center; padding-top: 50px;" class="gap-4">
+                        <p>Already have an account? 
+                            <a href="login.html">sign in</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="IMG_3488.PNG" alt="">
+            </div>
+        </section>
+    </section>
+
+
+
+    <script src="bankapp.js"></script>
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+</body>
+</html>

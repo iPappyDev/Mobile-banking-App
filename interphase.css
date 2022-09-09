@@ -1,0 +1,12 @@
+.loginInfo{
+    display: flex;
+    padding-top: 70px;
+
+}
+.loginInfo #boxInfo{
+    margin-left: 100px;
+}
+.loginInfo img{
+    height: 665px;
+    margin-left: 300px;
+}
